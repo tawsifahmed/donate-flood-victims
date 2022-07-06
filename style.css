@@ -1,0 +1,28 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#toph1 {
+    font-size: 70px;
+}
+
+.top-banner {
+    background-image: url(images/flood1.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.top-div {
+    color: rgba(230, 230, 230, 0.97);
+    text-align: center;
+    border-width: 30%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 20px 40px;
+    color: whitesmoke;
+    font-weight: 900;
+    border-radius: 7px;
+}
