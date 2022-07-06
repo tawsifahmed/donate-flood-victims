@@ -53,7 +53,7 @@ p {
     text-align: center;
 }
 
-#h1second {
+.h1second {
     font-size: 50px;
 }
 
@@ -142,6 +142,7 @@ input {
 
 .plan-boxes {
     border-radius: 7px;
+    border-width: 400px;
     width: 33.33%;
     margin-left: auto;
     margin-right: auto;
@@ -149,19 +150,69 @@ input {
 
 .pone {
     background-color: rgba(95, 158, 160, 0.122);
-    padding-left: 5px;
     padding-right: 5px;
-
+    padding-left: 5px;
+    margin-right: 10px;
 }
 
 .ptwo {
     background-color: rgba(216, 112, 147, 0.225);
     padding-left: 5px;
     padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .pthree {
     background-color: blanchedalmond;
     padding-left: 5px;
     padding-right: 5px;
+    margin-left: 10px;
+}
+
+.fourthsecdiv {
+    text-align: center;
+    font-size: 25px;
+}
+
+.extraflex {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#join-community {
+    text-align: center;
+}
+
+.lastsecinfo {
+    text-align: center;
+}
+
+.email {
+    display: flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #f8f7e4e5;
+    padding: 60px 175px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+#entermail {
+    background-color: rgba(192, 192, 192, 0.669);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1.25%;
+}
+
+#footerh1 {
+    font-family: cursive;
+    color: #FF5959;
 }
