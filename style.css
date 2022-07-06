@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 #toph1 {
@@ -9,13 +10,22 @@ body {
 .top-banner {
     background-image: url(images/flood1.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    background-size: cover;
 }
 
 .top-div {
     color: rgba(230, 230, 230, 0.97);
     text-align: center;
     border-width: 30%;
+    padding: 120px 170px 240px 130px;
+}
+
+#spantag {
+    color: #FF5959;
+}
+
+.top-div p {
+    background-color: black;
 }
 
 .link-button {
@@ -25,4 +35,90 @@ body {
     color: whitesmoke;
     font-weight: 900;
     border-radius: 7px;
+}
+
+.second-banner {
+    background-size: cover;
+}
+
+#second-bannerinfo {
+    text-align: center;
+}
+
+#h1second {
+    font-size: 50px;
+}
+
+.flex-con {
+    display: flex;
+    width: 20%;
+    font-size: 30px;
+    text-align: center;
+}
+
+#selectedammount {
+    border: 5px solid #FF5959;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #FFEEEE;
+
+
+}
+
+.not-selected {
+    background-color: #FAFAFA;
+    border-radius: 6%;
+}
+
+#tenusd {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 250px;
+    margin-right: 10px;
+}
+
+#thirtyusd {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#fortyusd {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#fiftyusd {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 10px;
+    margin-right: 160px;
+}
+
+.other-amount {
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-bottom: solid 1px;
+    font-size: larger;
+    padding: 0% 17% 10px 17%;
+    color: rgba(49, 47, 47, 0.376);
+}
+
+.submit-button {
+    border: none;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 20px 40px;
+    color: whitesmoke;
+    font-weight: 900;
+    border-radius: 7px;
+    font-size: medium;
 }
