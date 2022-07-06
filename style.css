@@ -7,6 +7,14 @@ body {
     font-size: 70px;
 }
 
+p {
+    color: gray;
+}
+
+#firstpara {
+    color: whitesmoke;
+}
+
 .top-banner {
     background-image: url(images/flood1.png);
     background-repeat: no-repeat;
@@ -61,8 +69,8 @@ body {
     border: 5px solid #FF5959;
     padding-left: 60px;
     padding-right: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #FFEEEE;
 
 
@@ -71,6 +79,7 @@ body {
 .not-selected {
     background-color: #FAFAFA;
     border-radius: 6%;
+    width: 20%;
 }
 
 #tenusd {
@@ -122,4 +131,43 @@ input {
     font-weight: 900;
     border-radius: 7px;
     font-size: medium;
+}
+
+.lastflex-con {
+    display: flex;
+    width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan-boxes {
+    border-radius: 7px;
+    width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-one {
+    background-color: rgba(95, 158, 160, 0.122);
+    padding: 5px;
+    margin-right: 10px;
+    width: 85px;
+
+}
+
+.p-two {
+    background-color: rgba(216, 112, 147, 0.225);
+    padding: 5px;
+    margin-left: 10px;
+    margin-left: 10px;
+    width: 85%;
+
+}
+
+.p-three {
+    background-color: blanchedalmond;
+    padding: 5px;
+    margin-left: 15px;
+    width: 85%;
+
 }
