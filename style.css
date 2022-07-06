@@ -147,27 +147,21 @@ input {
     margin-right: auto;
 }
 
-.p-one {
+.pone {
     background-color: rgba(95, 158, 160, 0.122);
-    padding: 5px;
-    margin-right: 10px;
-    width: 85px;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 
-.p-two {
+.ptwo {
     background-color: rgba(216, 112, 147, 0.225);
-    padding: 5px;
-    margin-left: 10px;
-    margin-left: 10px;
-    width: 85%;
-
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.p-three {
+.pthree {
     background-color: blanchedalmond;
-    padding: 5px;
-    margin-left: 15px;
-    width: 85%;
-
+    padding-left: 5px;
+    padding-right: 5px;
 }
