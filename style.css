@@ -215,4 +215,6 @@ footer {
 #footerh1 {
     font-family: cursive;
     color: #FF5959;
+    font-size: 40px;
+    font-weight: bold;
 }
